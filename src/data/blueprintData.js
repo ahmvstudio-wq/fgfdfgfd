@@ -1,168 +1,168 @@
 export const blueprintData = {
   hero: {
-    title: "Agency Growth Blueprint",
-    subtitle: "Bringing Money, Leads, and Business to Local Businesses",
-    description: "A hyper-focused system to transform relationship-dependent analog sales into data-driven, automated acquisition engines."
+    title: "The Local Business Growth Engine",
+    subtitle: "Getting More Customers, Sales, and Money for Your Business",
+    description: "A simple, automated system that turns old-school sales into a modern machine that works 24/7 without you doing the heavy lifting."
   },
   industryGaps: [
     {
       industry: "Real Estate & Property Management",
       icon: "Building",
-      trends: "Shift to fractional ownership, demand for smart-homes, yield-focused commercial investing, ultra-personalized luxury curation.",
-      acquisition: "Heavy reliance on aggregators (99acres, MagicBricks, Zillow), broker networks, and localized word-of-mouth.",
-      bottlenecks: "Lead leakage (slow response times), poor qualification, fragmented CRM data, unpredictable cash flow in rentals.",
-      opportunities: "First-to-respond advantage (sub-5-minute SLA), predictive analytics for property valuation, omni-channel retargeting.",
-      digitalGaps: "Most use CRMs as static Rolodexes rather than dynamic, trigger-based workflow engines.",
-      aiAutomation: "AI-driven voice bots for initial qualification, automated multi-touch follow-up sequences based on lead behavior.",
-      competitorStrategy: "High spend on performance ads leading to generic landing pages with high bounce rates and low conversion.",
-      lowCostGrowth: "Granular local SEO (Google Business Profiles per neighborhood), hyper-targeted WhatsApp reactivation campaigns."
+      trends: "People buying shares of homes, smart homes, and luxury buyers wanting VIP treatment.",
+      acquisition: "Relying on big websites (like Zillow) and word-of-mouth from friends.",
+      bottlenecks: "Being too slow to reply, talking to window-shoppers, messy contact lists, and up-and-down rental income.",
+      opportunities: "Calling people back in under 5 minutes, using smart tools to price homes, and showing ads to people who visited you before.",
+      digitalGaps: "Using the computer just to store phone numbers instead of actually sending automated messages.",
+      aiAutomation: "AI robots that answer calls and send automatic follow-up texts for you while you sleep.",
+      competitorStrategy: "Spending too much money on basic ads that don't actually get people to buy.",
+      lowCostGrowth: "Showing up on Google Maps and messaging old contacts on WhatsApp for free."
     },
     {
       industry: "Construction & Interior Design",
       icon: "HardHat",
-      trends: "Sustainable materials, 3D visualization before execution, modular construction, transparent pricing models.",
-      acquisition: "Architect referrals, Instagram portfolios, Houzz/Pinterest visibility, local B2B networking.",
-      bottlenecks: "Long sales cycles, subjective client approvals, high customer acquisition cost (CAC), scope creep.",
-      opportunities: "Productizing services (e.g., \"Fixed-price kitchen remodels\"), interactive AR/VR walkthroughs as lead magnets.",
-      digitalGaps: "Lack of automated project milestone updates for clients; disjointed post-inquiry nurture sequences.",
-      aiAutomation: "Generative AI for instant mood board creation during discovery calls; automated review generation post-handover.",
-      competitorStrategy: "Heavily visual social media, but lacking backend capture mechanisms to turn likes into qualified appointments.",
-      lowCostGrowth: "Strategic partnerships with real estate brokers (capturing buyers immediately post-purchase)."
+      trends: "Eco-friendly materials, showing 3D designs before building, and clear, upfront pricing.",
+      acquisition: "Getting recommended by architects or hoping people see photos on Instagram.",
+      bottlenecks: "Taking too long to close a deal, clients constantly changing their minds, and spending too much to get one customer.",
+      opportunities: "Selling fixed-price packages (like a 'Standard Kitchen Remodel') and using Virtual Reality to show designs.",
+      digitalGaps: "Not keeping clients updated automatically; ignoring people after they ask a single question.",
+      aiAutomation: "Using AI to make quick design ideas during the first call, and asking for reviews automatically when the job is done.",
+      competitorStrategy: "Posting pretty pictures on social media but not actually trying to get meetings from them.",
+      lowCostGrowth: "Partnering with real estate agents to catch people right after they buy a new home."
     }
   ],
   journey: [
     {
-      stage: "Discovery",
-      painPoint: "High ad spend, low intent.",
-      opportunity: "AI Lookalike Audiences: Hyper-targeted ads based on past closed-won data.",
-      action: "Tag source, campaign, and initial intent score."
+      stage: "1. Seeing the Ad",
+      painPoint: "Wasting money on bad ads.",
+      opportunity: "Smart Ads: Target people exactly like your best past customers.",
+      action: "Track exactly where they came from."
     },
     {
-      stage: "Interest",
-      painPoint: "Generic website browsing.",
-      opportunity: "Conversational AI: Webchat trained on your specific inventory and FAQs.",
-      action: "Capture WhatsApp/Email; initiate welcome sequence."
+      stage: "2. Browsing the Website",
+      painPoint: "People just looking around and leaving.",
+      opportunity: "Smart Chatbox: An AI answers their questions 24/7.",
+      action: "Get their phone number immediately."
     },
     {
-      stage: "Inquiry",
-      painPoint: "After-hours leads go cold.",
-      opportunity: "AI Voice Agent: Instant outbound call via Vapi/Twilio to engage within 60 seconds.",
-      action: "Log call transcript; update lead status to 'Contacted'."
+      stage: "3. Asking a Question",
+      painPoint: "Missing calls after business hours.",
+      opportunity: "Instant Call: An AI calls them back in 60 seconds.",
+      action: "Save the call notes so you remember what they want."
     },
     {
-      stage: "Qualification",
-      painPoint: "Agents waste time on bad leads.",
-      opportunity: "Automated WhatsApp Bot: 3-question interactive flow (Budget, Timeline, Location).",
-      action: "Route to specific agent calendar based on lead score."
+      stage: "4. Checking Good Fit",
+      painPoint: "Sales team wasting time on window shoppers.",
+      opportunity: "WhatsApp Bot: Automatically asks their budget and timeline.",
+      action: "Send only the serious buyers to your sales team."
     },
     {
-      stage: "Meeting / Visit",
-      painPoint: "High no-show rates.",
-      opportunity: "Predictive Routing: Match lead profile to best-performing agent.",
-      action: "Send automated WhatsApp/SMS reminders with map links."
+      stage: "5. The Sales Pitch",
+      painPoint: "People forgetting to show up.",
+      opportunity: "Smart Matching: Give the best leads to your best salespeople.",
+      action: "Send automatic reminder texts with directions."
     },
     {
-      stage: "Negotiation",
-      painPoint: "Emotion-driven pricing friction.",
-      opportunity: "AI Prop-Tech: Generate instant comparative market analysis (CMA) reports.",
-      action: "Trigger 'Active Negotiation' pipeline stage; alert management."
+      stage: "6. Talking Price",
+      painPoint: "Arguing over the price.",
+      opportunity: "Instant Reports: Auto-generate market reports to prove the value.",
+      action: "Alert the boss that a big deal is close."
     },
     {
-      stage: "Purchase",
-      painPoint: "Paperwork delays.",
-      opportunity: "Automated Document Gen: Auto-populate contracts via webhooks (e.g., DocuSign API).",
-      action: "Transition from 'Lead' to 'Client' pipeline."
+      stage: "7. Signing the Deal",
+      painPoint: "Slow, annoying paperwork.",
+      opportunity: "Auto-Paperwork: Generate the contract instantly.",
+      action: "Mark them as a paying customer."
     },
     {
-      stage: "After Sales",
-      painPoint: "Buyer's remorse; radio silence.",
-      opportunity: "Milestone Automations: Drip campaign explaining next steps, moving checklists, etc.",
-      action: "Schedule 30-day, 90-day, 1-year check-in tasks."
+      stage: "8. Following Up",
+      painPoint: "Customers feeling ignored after paying.",
+      opportunity: "Automatic Check-ins: Send helpful emails every few weeks.",
+      action: "Remind the team to call and check on them in 30 days."
     },
     {
-      stage: "Referral",
-      painPoint: "Forgetting to ask for introductions.",
-      opportunity: "NPS Automation: Trigger review requests at peak happiness (e.g., key handover).",
-      action: "Create affiliate link/code; track referral source automatically."
+      stage: "9. Getting Friends",
+      painPoint: "Forgetting to ask them to tell their friends.",
+      opportunity: "Auto-Reviews: Ask for a 5-star review the day they are happiest.",
+      action: "Give them a referral link to share."
     }
   ],
   leadMatrix: [
-    { rank: 1, source: "Google Ads (Search/Local)", cost: "High", difficulty: "Medium", scale: "High", roi: "High", bestPractice: "Hyper-local intent keywords. Send traffic to dynamic landing pages." },
-    { rank: 2, source: "Meta Ads (FB/IG)", cost: "Med", difficulty: "Medium", scale: "High", roi: "High", bestPractice: "Use lead forms synced directly to CRM via webhooks for instant AI follow-up." },
-    { rank: 3, source: "Database Reactivation", cost: "Low", difficulty: "Low", scale: "Med", roi: "High", bestPractice: "Run an AI SMS/WhatsApp campaign on old/dead leads. Immediate cash injection." },
-    { rank: 4, source: "Strategic Partnerships", cost: "Low", difficulty: "High", scale: "Med", roi: "High", bestPractice: "Automate a B2B outreach sequence via LinkedIn/Email to mortgage brokers." },
-    { rank: 5, source: "Local SEO (GBP)", cost: "Low", difficulty: "Low", scale: "Low", roi: "Med", bestPractice: "Automate review requests. Optimize profiles with weekly automated post updates." },
-    { rank: 6, source: "Organic Social (IG/YouTube)", cost: "Low", difficulty: "High", scale: "High", roi: "Med", bestPractice: "Document site visits and market updates. Use ManyChat to trigger lead capture." },
-    { rank: 7, source: "Cold Email / Outreach", cost: "Low", difficulty: "High", scale: "High", roi: "Med", bestPractice: "Use instantly.ai or Lemlist. Target commercial clients and high-net-worth investors." },
-    { rank: 8, source: "Directories / Aggregators", cost: "Med", difficulty: "Low", scale: "Med", roi: "Low", bestPractice: "Only use if integrated via API to your CRM for instant response." },
-    { rank: 9, source: "Events / Networking", cost: "High", difficulty: "High", scale: "Low", roi: "Med", bestPractice: "Use QR codes that dump directly into an automated CRM sequence." }
+    { rank: 1, source: "Google Ads (Search/Local)", cost: "High", difficulty: "Medium", scale: "High", roi: "High", bestPractice: "Target people searching to buy right now. Send them to a simple page." },
+    { rank: 2, source: "Facebook & Instagram Ads", cost: "Med", difficulty: "Medium", scale: "High", roi: "High", bestPractice: "Use instant forms so they don't even have to leave Facebook to sign up." },
+    { rank: 3, source: "Messaging Old Contacts", cost: "Low", difficulty: "Low", scale: "Med", roi: "High", bestPractice: "Text old, dead leads. It's fast, free money." },
+    { rank: 4, source: "Partnering with Businesses", cost: "Low", difficulty: "High", scale: "Med", roi: "High", bestPractice: "Automatically message mortgage brokers or other businesses on LinkedIn." },
+    { rank: 5, source: "Google Maps", cost: "Low", difficulty: "Low", scale: "Low", roi: "Med", bestPractice: "Ask for reviews automatically to show up higher on the map." },
+    { rank: 6, source: "Social Media Videos", cost: "Low", difficulty: "High", scale: "High", roi: "Med", bestPractice: "Post videos of your work and auto-reply to comments." },
+    { rank: 7, source: "Cold Emails", cost: "Low", difficulty: "High", scale: "High", roi: "Med", bestPractice: "Send highly personalized emails to rich investors." },
+    { rank: 8, source: "Paid Directories (Justdial)", cost: "Med", difficulty: "Low", scale: "Med", roi: "Low", bestPractice: "Only use them if they connect directly to your system." },
+    { rank: 9, source: "In-Person Events", cost: "High", difficulty: "High", scale: "Low", roi: "Med", bestPractice: "Use QR codes that save their info straight to your phone." }
   ],
   salesEngine: [
-    { step: "Lead Capture (The Net)", desc: "All sources feed into a single webhook." },
-    { step: "Speed-to-Lead (The Filter)", desc: "Within 2 mins, CRM triggers WhatsApp & AI Voice Agent." },
-    { step: "Automated Qualification (The Gate)", desc: "AI agent asks BANT questions." },
-    { step: "Calendar Sync (The Handoff)", desc: "Qualified leads get booking link; unqualified go to nurture." },
-    { step: "Pre-Meeting Nurture (The Primer)", desc: "Automated authority-building content sent before meeting." },
-    { step: "Proposal & Follow-up (The Closer)", desc: "Dynamic proposal generated. 5-step follow-up if unsigned." },
-    { step: "Post-Close (The Flywheel)", desc: "Client enters onboarding and referral generation sequence." }
+    { step: "The Net (Catch Everyone)", desc: "All leads from everywhere go into one single, organized list." },
+    { step: "The Filter (Act Fast)", desc: "Within 2 minutes, our system sends a WhatsApp and calls them." },
+    { step: "The Gatekeeper (Check Budget)", desc: "AI asks them what their budget is to see if they are serious." },
+    { step: "The Handoff (Book Meeting)", desc: "Good leads can book a meeting. Bad leads get helpful emails until ready." },
+    { step: "The Warm-Up (Build Trust)", desc: "Before the meeting, send them success stories to prove you are the best." },
+    { step: "The Closer (Follow Up)", desc: "Auto-create the price quote. If they don't sign, text them 5 times automatically." },
+    { step: "The Flywheel (Get Referrals)", desc: "After they buy, automatically ask for reviews and for them to tell their friends." }
   ],
   engineKPIs: [
-    { metric: "Time-to-first-touch", target: "< 5 mins" },
-    { metric: "Lead-to-Appointment Rate", target: "> 15%" },
-    { metric: "Show-up Rate", target: "> 75%" },
-    { metric: "Appointment-to-Close Rate", target: "> 20%" }
+    { metric: "Time to reply to a customer", target: "< 5 mins" },
+    { metric: "People who book a meeting", target: "> 15%" },
+    { metric: "People who actually show up", target: "> 75%" },
+    { metric: "Meetings that turn into money", target: "> 20%" }
   ],
   aiBlueprint: [
-    { useCase: "AI Voice Receptionist", complexity: "High", impact: "Massive", tech: "Vapi.ai / Bland.ai + Twilio + Make.com" },
-    { useCase: "AI WhatsApp Assistant", complexity: "Medium", impact: "Massive", tech: "WATI / ChatNode + OpenAI API" },
-    { useCase: "Automated Lead Scoring", complexity: "Medium", impact: "High", tech: "CRM native scoring + Make.com" },
-    { useCase: "Proposal Generation", complexity: "Low", impact: "Medium", tech: "GoHighLevel / PandaDoc API + ChatGPT" },
-    { useCase: "Predictive Analytics", complexity: "High", impact: "High", tech: "Python scripts analyzing historical CRM data" },
-    { useCase: "Generative Visuals", complexity: "Low", impact: "Medium", tech: "Midjourney / DALL-E for interior design concepts" },
-    { useCase: "Review Sentiment Analysis", complexity: "Low", impact: "Low", tech: "Zapier + OpenAI" }
+    { useCase: "AI Phone Receptionist", complexity: "High", impact: "Massive", tech: "Smart Voice Robots that talk like real humans." },
+    { useCase: "WhatsApp Assistant", complexity: "Medium", impact: "Massive", tech: "Chatbots that answer customer questions 24/7." },
+    { useCase: "Sorting Good vs Bad Leads", complexity: "Medium", impact: "High", tech: "Computer tells you who is most likely to buy." },
+    { useCase: "Auto-Creating Contracts", complexity: "Low", impact: "Medium", tech: "System writes the legal paperwork for you instantly." },
+    { useCase: "Guessing Who Will Buy Next", complexity: "High", impact: "High", tech: "System looks at old buyers and guesses when they will buy again." },
+    { useCase: "Making Fake Pictures Look Real", complexity: "Low", impact: "Medium", tech: "Using AI to design beautiful rooms instantly." },
+    { useCase: "Reading Reviews Automatically", complexity: "Low", impact: "Low", tech: "System reads Google reviews and warns you if someone is angry." }
   ],
   operations: [
-    { rhythm: "Daily", tasks: "Automated end-of-day Slack/WhatsApp report. Metrics: Leads generated, calls made, meetings booked." },
-    { rhythm: "Weekly (Sales Sprint)", tasks: "45-minute pipeline review. Metrics: Deals stuck > 7 days, show-up rates, conversion bottlenecks." },
-    { rhythm: "Monthly (Strategy Review)", tasks: "Assess marketing channel ROI. Shift budget from underperforming ads. Review AI chat transcripts." },
-    { rhythm: "Quarterly (System Audit)", tasks: "Deep dive into operational efficiency. Update SOPs, refine copy, audit CRM hygiene." }
+    { rhythm: "Daily", tasks: "Get an automatic text every evening saying how many calls were made and meetings booked." },
+    { rhythm: "Weekly (Sales Meeting)", tasks: "45-minute meeting to look at deals that are stuck and figure out why." },
+    { rhythm: "Monthly (Money Review)", tasks: "Look at where the money is coming from. Stop spending on ads that don't work." },
+    { rhythm: "Quarterly (Spring Cleaning)", tasks: "Deep clean the system. Delete dead leads and update the rules." }
   ],
   kpiDashboard: {
-    topFunnel: ["Cost per Lead (CPL)", "Website Conversion Rate", "Ad Click-Through Rate (CTR)", "Total Organic Leads"],
-    midFunnel: ["Lead-to-Meeting Ratio", "Cost per Acquisition (CPA)", "Follow-up Contact Rate", "Time-to-First-Response"],
-    bottomFunnel: ["Deal Win Rate", "Average Deal Size", "Sales Cycle Length", "Total Pipeline Value", "Pipeline Velocity"],
-    postSale: ["Client Lifetime Value (LTV)", "Net Promoter Score (NPS)", "Referral Rate percentage"]
+    topFunnel: ["Cost to get one phone number", "Percentage of visitors who contact you", "Percentage of people who click ads", "Free leads from Google"],
+    midFunnel: ["How many contacts book a meeting", "Cost to get a paying customer", "How often we follow up", "How fast we reply"],
+    bottomFunnel: ["Percentage of deals won", "Average money made per deal", "How long it takes to close a deal", "Total money sitting in negotiations"],
+    postSale: ["Total money a customer spends over their lifetime", "Customer happiness score", "Percentage of customers who bring friends"]
   },
   roadmap: [
-    { phase: "Phase 1: Foundation & Capture", weeks: "Week 1-4", goals: "CRM Setup, Asset Audit, Lead Magnets, Reactivation." },
-    { phase: "Phase 2: Automation & AI", weeks: "Week 5-8", goals: "Speed-to-Lead, AI Qualification, Voice Agent Beta, Sales SOPs." },
-    { phase: "Phase 3: Scale & Optimize", weeks: "Week 9-12", goals: "Paid Ads Launch, Retargeting, Dashboards, Review & Refine." }
+    { phase: "Phase 1: The Setup", weeks: "Weeks 1-4", goals: "Set up the database, fix the website, create free guides, and message old contacts." },
+    { phase: "Phase 2: The Robots", weeks: "Weeks 5-8", goals: "Turn on instant replies, WhatsApp bot, AI caller, and train the team." },
+    { phase: "Phase 3: Turning on the Tap", weeks: "Weeks 9-12", goals: "Start paying for Google and Facebook ads, track the money, and tweak the system." }
   ],
   advertising: {
-    philosophy: "Split strategy into two distinct engines: Google Ads (Capturing Intent) & Meta Ads (Generating Demand).",
+    philosophy: "We use two engines: Google (Catching people who want to buy NOW) and Facebook/Instagram (Making people WANT to buy).",
     meta: {
-      title: "Meta (FB/IG) Blueprint",
-      bestFor: "Interior Design, Luxury Real Estate, Pre-Launch Projects.",
+      title: "Facebook & Instagram Strategy",
+      bestFor: "Interior Design, Luxury Real Estate, New Projects.",
       campaigns: [
-        { name: "The 'Irresistible Offer' Campaign (TOF)", angle: "Give high-value asset in exchange for details." },
-        { name: "The 'Proof & Process' Campaign (MOF)", angle: "Show, don't tell. Video content works best here." },
-        { name: "The 'Omnipresent Retargeting' Campaign (BOF)", angle: "Push them off the fence with urgency and proof." }
+        { name: "The Free Gift", angle: "Give them something valuable (like a guide) to get their phone number." },
+        { name: "Show, Don't Tell", angle: "Show videos of your work to prove you are the best." },
+        { name: "The Gentle Reminder", angle: "Keep showing your face to people who visited your site but didn't buy." }
       ]
     },
     google: {
-      title: "Google Ads Blueprint",
-      bestFor: "Commercial Real Estate, Urgent Rentals, High-Intent Buyers.",
+      title: "Google Search Strategy",
+      bestFor: "Commercial Real Estate, Urgent Rentals, Serious Buyers.",
       tactics: [
-        { name: "Single Keyword Ad Groups", desc: "Tight thematic groups matching search term, ad headline, and landing page." },
-        { name: "Negative Keyword Shield", desc: "Block wasted spend (jobs, cheap, free, course)." },
-        { name: "Dedicated Landing Pages", desc: "Stripped-down, high-speed, no navigation bars." }
+        { name: "Exact Matches", desc: "Only show ads to people typing exactly what you sell." },
+        { name: "Blocking Bad Words", desc: "Never pay for people searching for 'cheap', 'jobs', or 'free'." },
+        { name: "Simple Pages", desc: "Send them to a simple webpage that only does one thing: gets their phone number." }
       ]
     },
     technical: [
-      "The Webhook Pipeline: Route all leads through Make.com to CRM.",
-      "Speed-to-Lead Automation: Trigger WhatsApp sequence instantly.",
-      "Meta Conversions API (CAPI): Send offline conversions back to Facebook.",
-      "UTM Tracking: Map UTMs to CRM to calculate true ROAS."
+      "No Manual Work: Every lead goes straight to your phone instantly.",
+      "Instant Reply: The system texts them while they are still holding their phone.",
+      "Smart Tracking: The system tells Facebook exactly which ads made you actual money.",
+      "Return on Investment: Know exactly how much money you made for every dollar spent."
     ]
   }
 };
