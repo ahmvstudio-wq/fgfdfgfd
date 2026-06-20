@@ -1,0 +1,91 @@
+.matrix-section {
+  padding: 80px 0;
+}
+
+.matrix-table-container {
+  overflow-x: auto;
+  padding: 0;
+}
+
+.matrix-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.matrix-table th {
+  padding: 16px 24px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  border-bottom: 1px solid var(--glass-border);
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.matrix-table td {
+  padding: 16px 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  color: var(--text-primary);
+  font-size: 0.95rem;
+}
+
+.matrix-table tr:last-child td {
+  border-bottom: none;
+}
+
+.matrix-table tr:hover td {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.rank-cell {
+  font-weight: 800;
+  color: var(--text-muted);
+}
+
+.trophy-1 { color: #fbbf24; }
+.trophy-2 { color: #9ca3af; }
+.trophy-3 { color: #b45309; }
+
+.source-cell {
+  font-weight: 600;
+}
+
+.pill {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.pill-high {
+  background: rgba(16, 185, 129, 0.1);
+  color: #10b981;
+}
+
+.pill-med {
+  background: rgba(245, 158, 11, 0.1);
+  color: #f59e0b;
+}
+
+.pill-low {
+  background: rgba(239, 68, 68, 0.1);
+  color: #ef4444;
+}
+
+.practice-cell {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  max-width: 300px;
+  line-height: 1.4;
+  font-size: 0.85rem !important;
+  color: var(--text-secondary) !important;
+}
+
+.practice-icon {
+  margin-top: 2px;
+  flex-shrink: 0;
+  color: var(--accent-primary);
+}

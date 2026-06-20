@@ -1,0 +1,87 @@
+.roadmap-section {
+  padding: 80px 0;
+}
+
+.roadmap-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.roadmap-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 24px;
+  width: 2px;
+  background: var(--glass-border);
+  z-index: 0;
+}
+
+.roadmap-phase {
+  display: flex;
+  gap: 24px;
+  position: relative;
+  z-index: 1;
+}
+
+.phase-marker {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--accent-gradient);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: white;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
+
+.phase-content {
+  flex-grow: 1;
+  padding-top: 12px;
+}
+
+.phase-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.phase-header h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: var(--accent-primary);
+}
+
+.phase-weeks {
+  font-size: 0.85rem;
+  font-weight: 700;
+  background: var(--accent-light);
+  color: var(--accent-primary);
+  padding: 4px 12px;
+  border-radius: 12px;
+}
+
+.phase-goals {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .roadmap-container::before {
+    left: 20px;
+  }
+  .phase-marker {
+    width: 40px;
+    height: 40px;
+  }
+}

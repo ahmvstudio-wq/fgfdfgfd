@@ -1,0 +1,43 @@
+.ops-section {
+  padding: 80px 0;
+}
+
+.ops-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.ops-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-top: 4px solid var(--accent-primary);
+}
+
+.ops-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.ops-icon {
+  color: var(--accent-primary);
+}
+
+.ops-header h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.ops-tasks {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .ops-grid {
+    grid-template-columns: 1fr;
+  }
+}
